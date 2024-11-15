@@ -19,21 +19,25 @@ const Navbar = () => {
                         gap-6 text-xl py-4 sm:py-0"
             >
               <li>
-                <a href=".">About</a>
+                <a className="hover:text-blue-400  duration-300" href=".">
+                  Our Planet
+                </a>
               </li>
               <li>
-                <a href=".">About</a>
+                <a className="hover:text-blue-400  duration-300" href=".">Solar System</a>
               </li>
               <li>
-                <a href=".">About</a>
+                <a className="hover:text-blue-400  duration-300" href=".">Galaxy</a>
               </li>
               <li>
-                <a href=".">About</a>
+                <a className="hover:text-blue-400  duration-300" href=".">Phenomena</a>
               </li>
             </ul>
           </div>
           <div>
-            <button className="text-white border-2 border-white px-3 py-1 rounded-md">Log In</button>
+            <button className="text-white border-2 border-white px-3 py-1 rounded-md">
+              Log In
+            </button>
           </div>
         </div>
       </div>

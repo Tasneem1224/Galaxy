@@ -2,6 +2,7 @@ import bgVid from "./assets/earthmove.mp4";
 import Navbar from "./components/Navbar/navbar";
 import Hero from "./components/Hero/hero";
 import Home from "./components/Home/home";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Hero />
       </div>
       <Home/>
+      
+      <Footer/>
     </>
   );
 };
