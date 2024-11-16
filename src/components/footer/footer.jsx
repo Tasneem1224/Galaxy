@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="bg-gradient-to-t from-blue-950/70 via-blue-950/90 to-blue-950/100 text-white h-auto relative px-5 z-20">
         <section className="max-w-[1200px] mx-auto text-white">
           <div className="grid md:grid-cols-3 py-5">
-            <div data-aos="fade-up" data-aos-delay="100" className="py-8 px-4">
+            <div data-aos="fade-up" data-aos-delay="200" className="py-8 px-4">
               <h1 className="font-bold text-2xl sm:text-2xl sm:text-left text-justify mb-3">
                 Be Ready To Grow
               </h1>
@@ -29,7 +29,7 @@ const Footer = () => {
               <div>
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="100"
+                  data-aos-delay="200"
                   className="py-8 px-4"
                 >
                   <h1 className="text-xl font-bold mb-3">Quick Links</h1>
@@ -60,7 +60,7 @@ const Footer = () => {
               <div>
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="100"
+                  data-aos-delay="200"
                   className="py-8 px-4"
                 >
                   <h1 className="text-xl font-bold mb-3">Quick Links</h1>
