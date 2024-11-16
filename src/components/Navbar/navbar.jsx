@@ -2,7 +2,7 @@ import Logo from "../../assets/icon.png";
 
 const Navbar = () => {
   return (
-    <div
+    <div data-aos="fade-down"
       className="fixed top-0 right-0 w-full h-24
         z-50 bg-black/15 backdrop-blur-sm py-3 px-12
         sm:py-3"
